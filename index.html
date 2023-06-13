@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk Like a Minion</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #input-area {
+            border-radius: 5px;
+            border-style: solid;
+            font-size: x-large;
+        }
+
+        #translate-btn{
+            margin: 15px 0px;
+            height: 50px;
+            width: fit-content;
+            border-radius: 5px;
+            background-color: bisque;
+        }
+
+        #output-area {
+            font-size: x-large;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minion Speak</h1>
+    <textarea name="input" id="input-area" cols="30" rows="5" placeholder="Enter your words"></textarea><br>
+    <button id="translate-btn">Translate</button><br>
+    <h2>Output is here</h2>
+    <textarea name="output" id="output-area" cols="30" rows="5" placeholder="here's the result"></textarea>
+    <script src="app.js"></script>
+</body>
+</html>
